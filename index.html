@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <form target="popup" action="google.com" onsubmit="window.open('', this.target,    'width=300,height=300,resizable,scrollbars=yes'); return true;">
+            <input type="submit" value="click here"/>
+        </form>
+
+        <script>
+            function openWindow(h, w, url) {
+              leftOffset = (screen.width/2) - w/2;
+              topOffset = (screen.height/2) - h/2;
+              window.open(url, this.target, 'left=' + leftOffset + ',top=' + topOffset + ',width=' + w + ',height=' + h + ',resizable,scrollbars=yes');
+            
+            }
+            </script>
+            <form name="form2" id="form2" method="post" action="google.com" onsubmit="openWindow(300, 300, 'google.com');">
+            <input type="submit" value="click here"/>
+            </form>
+    </body>
+</html>
