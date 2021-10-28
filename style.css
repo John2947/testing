@@ -1,0 +1,85 @@
+/* colors */
+
+.color-49c9d4 {
+  color: #49c9d4;
+}
+
+.color-3f505a {
+  color: #3f505a;
+}
+
+.color-white {
+  color: white;
+}
+
+/* SECTION 1 */
+
+#banner {
+  width: 100%;
+  position: relative;
+}
+
+.bn-bg {
+  width: 100%;
+}
+
+.bn-con {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  text-align: center;
+}
+
+.img-fluid.bn-icon {
+  max-width: 170px;
+}
+
+#bn-head {
+  font-size: 6vw;
+  margin-top: 6%;
+  margin-bottom: 0px;
+}
+
+.uline {
+  width: 65%;
+}
+
+.bn-sub {
+  margin-top: 21%;
+}
+
+.bn-sub h4 {
+  font-size: 2vw;
+}
+
+.bn-sub p {
+  font-size: 22px;
+}
+
+/* SECTION 2 */
+
+#phi {
+  position: relative;
+  margin-bottom: -49%;
+  z-index: -1;
+}
+
+.sec2bg {
+  width: 100%;
+  transform: translateY(-23%);
+}
+
+/* SECTION 3 */
+
+#class-harm {
+  width: 100%;
+  position: relative;
+}
+
+.sec3bg {
+  width: 100%;
+}
+body {
+  background-color: green;
+}
